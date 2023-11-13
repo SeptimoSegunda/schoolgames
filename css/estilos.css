@@ -53,7 +53,7 @@ nav li a:hover{
 }
 h4{
     position: relative;
-    top: -40px;
+    top: -50px;
     left: 0px;
 }
 .fa-gamepad{
@@ -72,6 +72,18 @@ h4{
 .circle:hover{
     background-color: rgb(255, 255, 255);
 }
+/**ícono flappy bird**/
+.flapbd{
+    width: 150px;
+    position: relative;
+    left: -45px;
+    top: -20px;
+    transition: 2s;
+}
+.flapbd:hover{
+    transform: scale(0.7);
+}
+
 .icon{
     width: 160px;
     height: 160px;
@@ -80,8 +92,6 @@ h4{
     top: 14px;
     border-radius: 100%;
 }
-
-
  footer{
     width: auto;
     position: relative;
@@ -92,10 +102,11 @@ h4{
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
-}
+}**/
 
 
 /* burbujas */
+
 .burbuja{
     border-radius: 50%;
     background: #38CD96;
@@ -186,7 +197,6 @@ h4{
     animation-duration: 3s;
     animation-delay: 4s;
 }
-
 
 @keyframes burbujas{
     0%{
