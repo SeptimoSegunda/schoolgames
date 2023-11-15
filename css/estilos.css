@@ -56,6 +56,11 @@ h4{
     top: -50px;
     left: 0px;
 }
+h3{
+    position: relative;
+    top: -50px;
+    left: -18px;
+}
 .fa-gamepad{
     font-size: 80px;
     position: relative;
@@ -83,7 +88,67 @@ h4{
 .flapbd:hover{
     transform: scale(0.7);
 }
+/**ICON SNAKE**/
+.snake{
+    width: 100px;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    transition: 2s;
+}
+.snake:hover{
+    transform: scale(0.7);
+}
+/**icon battle**/
+.BATTLE{
+    width: 90px;
+    position: relative;
+    left: -15px;
+    top: -30px;
+    transition: 2s;
+}
+.BATTLE:hover{
+    transform: scale(0.7);
+}
 
+/**icon cussishin*/
+.invasores{
+    width: 76px;
+    position: relative;
+    left: -5px;
+    top: -30px;
+    transition: 2s;
+}
+.invasores:hover{
+    transform: scale(0.7);
+}
+
+/**icon invasión**/
+.onvsd{
+    width: 100px;
+    position: relative;
+    left: -20px;
+    top: -30px;
+    transition: 2s;
+}
+.onvsd:hover{
+    transform: scale(0.7);
+}
+#iin{
+    left: -5px;
+    top: -60px;
+}
+
+.tetris{
+    width: 100px;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    transition: 2s;
+}
+.tetris:hover{
+    transform: scale(0.7);
+}
 .icon{
     width: 160px;
     height: 160px;
@@ -102,7 +167,8 @@ h4{
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
-}**/
+}
+
 
 
 /* burbujas */
