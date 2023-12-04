@@ -149,6 +149,17 @@ h3{
 .tetris:hover{
     transform: scale(0.7);
 }
+/**ícono pingpong**/
+.pingpong{
+    width: 100px;
+    position: relative;
+    left: -15px;
+    top: -30px;
+    transition: 2s;
+}
+.pingpong:hover{
+    transform: scale(0.7);
+}
 .icon{
     width: 160px;
     height: 160px;
