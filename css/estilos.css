@@ -151,9 +151,9 @@ h3{
 }
 /**ícono pingpong**/
 .pingpong{
-    width: 100px;
+    width: 120px;
     position: relative;
-    left: -15px;
+    left: -30px;
     top: -30px;
     transition: 2s;
 }
